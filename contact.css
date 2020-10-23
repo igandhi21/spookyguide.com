@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.textInput, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.sub {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.sub:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.contact {
+  border-radius: 20px;
+  background-color: #202020;
+  padding: 10px;
+  margin-top: 170px;
+  border: 2px solid white;
+}
+
+.contactForm {
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.contactContent:after {
+  content: "";
+  display: table;
+  clear: both;
+}
